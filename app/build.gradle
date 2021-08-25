@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "com.company.netsdk"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            debuggable true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        encoding "UTF-8"
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs=['libs']
+        }
+    }
+}
+
+android {
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+
+    implementation 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile project(':inetsdk')
+    implementation 'com.android.support:design:26.0.0-alpha1'
+    implementation 'com.google.android.gms:play-services-base:11.0.4'
+    implementation ('com.google.firebase:firebase-messaging:11.0.4'){
+        exclude group:'androidx.legacy'
+    }
+}
+
+
+
