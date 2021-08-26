@@ -14,7 +14,7 @@
     <string name="common_information">Please Choose Suitable Environment</string>
     <string name="common_login">Login</string>
     <string name="common_logout">Logout</string>
-    <string name ="common_remember_info"> Remember me</string>
+    <string name="common_remember_info"> Remember me</string>
     <string name="logining">Logining...</string>
     <string name="waiting">Waiting...</string>
 
@@ -22,7 +22,7 @@
     <string name="title_function_list">Function List</string>
 
     <!-- activity_main -->
-    <string name="activity_main_ip"> IP Login</string>
+    <string name="activity_main_ip">map</string>
     <string name="activity_main_search_device"> Search Device </string>
     <string name="activity_main_wifi_config"> Smart Config </string>
     <string name="activity_main_init_dev_account"> Init Dev Account</string>
@@ -60,14 +60,14 @@
     <string name="please_input_init_phone">Please input phone.</string>
     <string name="please_input_init_mail">Please input mail.</string>
 
-    <string name ="activity_iplogin_password_incorrect">Incorrect password!</string>
-    <string name ="activity_iplogin_no_this_account">No this account!</string>
-    <string name ="activity_iplogin_time_out">Time out!!</string>
-    <string name ="activity_iplogin_account_logined">Account have been logined!!</string>
-    <string name ="activity_iplogin_accout_had_locked">Account have been locked!!</string>
-    <string name ="activity_iplogin_user_illegal">The user has listed into illegal!!</string>
-    <string name ="activity_iplogin_system_busy">The system is busy!</string>
-    <string name ="activity_iplogin_no_host">You Can\'t find the network server!!</string>
+    <string name="activity_iplogin_password_incorrect">Incorrect password!</string>
+    <string name="activity_iplogin_no_this_account">No this account!</string>
+    <string name="activity_iplogin_time_out">Time out!!</string>
+    <string name="activity_iplogin_account_logined">Account have been logined!!</string>
+    <string name="activity_iplogin_accout_had_locked">Account have been locked!!</string>
+    <string name="activity_iplogin_user_illegal">The user has listed into illegal!!</string>
+    <string name="activity_iplogin_system_busy">The system is busy!</string>
+    <string name="activity_iplogin_no_host">You Can\'t find the network server!!</string>
 
     <!--activity_p2plogin-->
     <string name="activity_p2plogin_server_address">P2P Server Address</string>
@@ -143,8 +143,8 @@
     <array name="stream_type_array">
         <item>Main</item>
         <item>Extra</item>
-    <!--    <item>Sub-2 Stream</item> -->
-    <!--    <item>Sub-3 Stream</item> -->
+        <!--    <item>Sub-2 Stream</item> -->
+        <!--    <item>Sub-3 Stream</item> -->
     </array>
 
     <array name="stream_array">
@@ -854,4 +854,13 @@
     <string name="set_time_title_succeed">Succeed to set time title</string>
     <string name="input_channel_name">Please input channel name</string>
     <string name="channel_name_maxlen_255">Max length of chanenl name is 255</string>
+    <string name="title_activity_work_site_details">WorkSiteDetailsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

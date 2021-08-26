@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             if (v == mButtonIpLogin && mButtonIpLogin != null) {
-                startActivity(new Intent(MainActivity.this, IPLoginActivity.class));
+                startActivity(new Intent(MainActivity.this, WorkSiteDetailsActivity.class));
             }else if (v == mButtonP2PLogin && mButtonP2PLogin != null) {
                 startActivity(new Intent(MainActivity.this, P2PLoginActivity.class));
             }else if (v == mButtonDeviceSearch && mButtonDeviceSearch != null) {
@@ -39,9 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(intent);
             }
-//            else if (v == mButtonWifiConfig && mButtonWifiConfig != null) {
-//                startActivity(new Intent(MainActivity.this, WIFIConfigurationActivity.class));
-//            }
         }
     };
 

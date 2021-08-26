@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.6">
       <module name="AndroidDemo.app" target="1.8" />
+      <module name="zhi_hui_hui_tian-main.app" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

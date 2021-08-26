@@ -12,7 +12,8 @@
     <color name="transparent">#00000000</color>
     <color name="dialogBackground">#121316</color>
     <color name="dividerColor">#2B2C2D</color>
-
+    <color name="button_bgcolor">#f0f0ff</color>
+    <color name="button_bdcolor">#ddddff</color>
     <color name="green">#00A335</color>
     <color name="drakgreen">#078E37</color>
     <color name="lightgreen">#75DA00</color>
