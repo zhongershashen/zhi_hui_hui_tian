@@ -1,4 +1,5 @@
 package com.company.netsdk.module;
+import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
@@ -47,7 +48,7 @@ public class LivePreviewModule {
         mPlayPort = IPlaySDK.PLAYGetFreePort();
         isOpenSound = true;
         isDelayPlay = false;
-        sdkApp = ((NetSDKApplication)((AppCompatActivity)mContext).getApplication());
+        sdkApp = ((NetSDKApplication)((Activity)mContext).getApplication());
         initMap();
     }
     ///码流类型的hash

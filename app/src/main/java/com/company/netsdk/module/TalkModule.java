@@ -1,5 +1,6 @@
 package com.company.netsdk.module;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
@@ -43,7 +44,7 @@ public class TalkModule {
     public TalkModule(Context context) {
         this.mContext = context;
         res = mContext.getResources();
-        app = ((NetSDKApplication) ((AppCompatActivity) mContext).getApplication());
+        app = ((NetSDKApplication) ((Activity) mContext).getApplication());
         cbAudioDataCallBack = new AudioDataCallBack();
         cbAudioRecord = new AudioRecordCallBack();
     }

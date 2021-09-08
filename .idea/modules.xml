@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zhi_hui_hui_tian-main.iml" filepath="$PROJECT_DIR$/.idea/modules/zhi_hui_hui_tian-main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/zhi_hui_hui_tian-main.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/zhi_hui_hui_tian-main.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inetsdk/zhi_hui_hui_tian-main.inetsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/inetsdk/zhi_hui_hui_tian-main.inetsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zhi_hui_hui_tian.iml" filepath="$PROJECT_DIR$/.idea/modules/zhi_hui_hui_tian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/zhi_hui_hui_tian.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/zhi_hui_hui_tian.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inetsdk/zhi_hui_hui_tian.inetsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/inetsdk/zhi_hui_hui_tian.inetsdk.iml" />
     </modules>
   </component>
 </project>

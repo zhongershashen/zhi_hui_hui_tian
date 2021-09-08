@@ -1,5 +1,6 @@
 package com.company.netsdk.module;
 
+import android.app.Activity;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 
@@ -23,7 +24,7 @@ public class DeviceControlModule {
 
     public DeviceControlModule(Context context) {
         this.mContext = context;
-        app = ((NetSDKApplication)((AppCompatActivity)mContext).getApplication());
+        app = ((NetSDKApplication)((Activity)mContext).getApplication());
         resId = R.string.NET_ERROR;
     }
 
