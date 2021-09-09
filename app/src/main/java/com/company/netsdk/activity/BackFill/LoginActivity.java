@@ -105,7 +105,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         //注册点击事件
 //        mLlLoginPull.setOnClickListener(this);
-        mIbNavigationBack.setOnClickListener(this);
+//        mIbNavigationBack.setOnClickListener(this);
         mEtLoginUsername.setOnClickListener(this);
         mIvLoginUsernameDel.setOnClickListener(this);
         mBtLoginSubmit.setOnClickListener(this);
@@ -115,7 +115,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
 
         //注册其它事件
-        mLayBackBar.getViewTreeObserver().addOnGlobalLayoutListener(this);
+//        mLayBackBar.getViewTreeObserver().addOnGlobalLayoutListener(this);
         mEtLoginUsername.setOnFocusChangeListener(this);
         mEtLoginUsername.addTextChangedListener(this);
         mEtLoginPwd.setOnFocusChangeListener(this);

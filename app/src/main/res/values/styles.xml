@@ -6,6 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
     <style name="NetSDKBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -53,6 +54,11 @@
 
     <style name="MneuStyle">
         <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="testStyle">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
     </style>
 
     <style name="config_relativeLayout">

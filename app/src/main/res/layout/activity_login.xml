@@ -13,20 +13,23 @@
         android:background="@mipmap/bg_login"
         android:orientation="vertical"
         android:paddingBottom="16dp">
-
-        <include
-            android:id="@+id/ly_retrieve_bar"
-            layout="@layout/activity_main_login_navigation_bar"
-            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/app_name"
+            android:textSize="35dp"
+            android:textColor="@color/primaryBlue"
+            android:gravity="center"
+            android:background="@color/dark70"/>
 
         <ImageView
             android:id="@+id/iv_login_logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="367dp"
+            android:layout_height="124dp"
             android:layout_gravity="center_horizontal"
             android:contentDescription="@null"
             android:paddingTop="20dp"
-            android:scaleType="centerInside"
+            android:scaleType="centerCrop"
             app:srcCompat="@mipmap/logo" />
 
         <LinearLayout
@@ -87,6 +90,7 @@
                 android:scaleType="fitCenter"
                 android:visibility="gone"
                 app:srcCompat="@mipmap/ic_clear" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -191,7 +195,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:button="@drawable/ic_selector_checkbox"
-                android:checked="true"
+                android:checked="false"
                 android:contentDescription="@null"
                 android:textColor="@color/text_secondary_color"
                 android:textSize="@dimen/font_12"
